@@ -25,14 +25,19 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+<<<<<<< HEAD
   background:
    /* radial-gradient(circle at 50% 38%, rgba(0, 42, 120, .10), transparent 30%),
     radial-gradient(circle at 85% 75%, rgba(0, 255, 110, .035), transparent 22%), */
     #01050b; 
+=======
+  background-image: url('./img/WhatsApp\ Image\ 2026-08-20\ at\ 16.44.25.jpeg');
+>>>>>>> 81915c3 (Alterações na personalização portifório)
   color: var(--text);
   font-family: var(--sans);
 }
 
+<<<<<<< HEAD
 body::before {
   content: "";
   position: fixed;
@@ -46,6 +51,9 @@ body::before {
   background-position: 8px 0, 20px 12px;
   mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
 }
+=======
+
+>>>>>>> 81915c3 (Alterações na personalização portifório)
 
 .portfolio {
   width: min(1320px, calc(100% - 56px));
@@ -118,6 +126,7 @@ h1 {
   box-shadow: inset 0 0 12px rgba(50,255,120,.05);
 }
 
+<<<<<<< HEAD
 .social-icon.mail {
   font-size: 25px;
   font-family: Georgia, serif;
@@ -126,6 +135,16 @@ h1 {
 .social-icon.github {
   font-size: 23px;
   border-radius: 9px;
+=======
+.social-icon.mail img {
+  width: 32px;
+  height: 32px;
+}
+
+.social-icon.github img {
+  width: 38px;
+  height: 38px;
+>>>>>>> 81915c3 (Alterações na personalização portifório)
 }
 
 .social small {
@@ -187,9 +206,15 @@ h1 {
   font-weight: 500;
 }
 
+<<<<<<< HEAD
 .cap {
   font-size: 29px;
   color: var(--green);
+=======
+.cap img {
+  width: 60px;
+  height: 60px;
+>>>>>>> 81915c3 (Alterações na personalização portifório)
 }
 
 .timeline {
@@ -302,6 +327,7 @@ h1 {
   margin-right: 7px;
 }
 
+<<<<<<< HEAD
 .slogan {
   position: absolute;
   left: 41%;
@@ -310,6 +336,8 @@ h1 {
   color: #f0f0f0;
   z-index: 3;
 }
+=======
+>>>>>>> 81915c3 (Alterações na personalização portifório)
 
 .cursor {
   display: inline-block;
@@ -502,13 +530,28 @@ h1 {
   display: inline-block;
   margin-top: 18px;
   padding: 7px 14px;
+<<<<<<< HEAD
   color: #2e75ff;
   border: 1px solid #214cbd;
   border-radius: 7px;
+=======
+  color: #2e74ffd2;
+  border: 1px solid #214cbd;
+  border-radius: 10px;
+>>>>>>> 81915c3 (Alterações na personalização portifório)
   text-decoration: none;
   font: 14px var(--mono);
 }
 
+<<<<<<< HEAD
+=======
+
+.github-button:hover {
+  background: #01050b00;
+  box-shadow: inset 0 0px 12px #0a55c7e0;
+}
+
+>>>>>>> 81915c3 (Alterações na personalização portifório)
 .project-icon {
   flex: 0 0 85px;
   height: 85px;
@@ -516,6 +559,7 @@ h1 {
   color: var(--green);
 }
 
+<<<<<<< HEAD
 .monitor-icon {
   border: 2px solid var(--green);
   border-radius: 5px;
@@ -573,6 +617,16 @@ h1 {
   font-size: 27px;
   letter-spacing: 3px;
 }
+=======
+
+
+.chip-icon img {
+  width: 70px;
+  height: 70px;
+}
+
+
+>>>>>>> 81915c3 (Alterações na personalização portifório)
 
 footer {
   position: relative;
